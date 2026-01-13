@@ -1,0 +1,282 @@
+{
+  "Argentina": {
+    "count": 1,
+    "display_name": "Argentina",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 2.3
+  },
+  "Australia": {
+    "count": 5,
+    "display_name": "Australia",
+    "files": [
+      "australia1.xml",
+      "australia2.xml",
+      "australia3.xml",
+      "australia4.xml",
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 0.3
+  },
+  "Austria": {
+    "count": 1,
+    "display_name": "Austria",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 0.9
+  },
+  "Belgium": {
+    "count": 1,
+    "display_name": "Belgium",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 8.3
+  },
+  "Brazil": {
+    "count": 5,
+    "display_name": "Brazil",
+    "files": [
+      "brazil1.xml",
+      "brazil2.xml",
+      "brazil3.xml",
+      "brazil4.xml",
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 22.7
+  },
+  "Canada": {
+    "count": 4,
+    "display_name": "Canada",
+    "files": [
+      "canada1.xml",
+      "canada2.xml",
+      "canada3.xml",
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 8.7
+  },
+  "Chile": {
+    "count": 1,
+    "display_name": "Chile",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 2.3
+  },
+  "Denmark": {
+    "count": 1,
+    "display_name": "Denmark",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 1.1
+  },
+  "France": {
+    "count": 3,
+    "display_name": "France",
+    "files": [
+      "france1.xml",
+      "france2.xml",
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 7.2
+  },
+  "Germany": {
+    "count": 5,
+    "display_name": "Germany",
+    "files": [
+      "germany1.xml",
+      "germany2.xml",
+      "germany3.xml",
+      "germany4.xml",
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 23.5
+  },
+  "India": {
+    "count": 6,
+    "display_name": "India",
+    "files": [
+      "guide.xml",
+      "india1.xml",
+      "india2.xml",
+      "india3.xml",
+      "india4.xml",
+      "india5.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 26.4
+  },
+  "Italy": {
+    "count": 6,
+    "display_name": "Italy",
+    "files": [
+      "guide.xml",
+      "italy1.xml",
+      "italy2.xml",
+      "italy3.xml",
+      "italy4.xml",
+      "italy5.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 6.7
+  },
+  "Mexico": {
+    "count": 1,
+    "display_name": "Mexico",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 1.6
+  },
+  "Netherlands": {
+    "count": 1,
+    "display_name": "Netherlands",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 2.3
+  },
+  "Norway": {
+    "count": 1,
+    "display_name": "Norway",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 1.2
+  },
+  "Poland": {
+    "count": 1,
+    "display_name": "Poland",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 10.8
+  },
+  "Portugal": {
+    "count": 1,
+    "display_name": "Portugal",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 3.2
+  },
+  "Spain": {
+    "count": 6,
+    "display_name": "Spain",
+    "files": [
+      "guide.xml",
+      "spain1.xml",
+      "spain2.xml",
+      "spain3.xml",
+      "spain4.xml",
+      "spain5.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 11.9
+  },
+  "Sweden": {
+    "count": 1,
+    "display_name": "Sweden",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 3.9
+  },
+  "Switzerland": {
+    "count": 1,
+    "display_name": "Switzerland",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 7.8
+  },
+  "Turkey": {
+    "count": 1,
+    "display_name": "Turkey",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 1.5
+  },
+  "United_Kingdom": {
+    "count": 5,
+    "display_name": "United Kingdom",
+    "files": [
+      "unitedkingdom1.xml",
+      "unitedkingdom2.xml",
+      "unitedkingdom3.xml",
+      "unitedkingdom4.xml",
+      "unitedkingdom5.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 20.5
+  },
+  "United_States": {
+    "count": 5,
+    "display_name": "United States",
+    "files": [
+      "usa1.xml",
+      "usa2.xml",
+      "usa3.xml",
+      "usa4.xml",
+      "usa5.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 6.5
+  },
+  "Uruguay": {
+    "count": 1,
+    "display_name": "Uruguay",
+    "files": [
+      "guide.xml"
+    ],
+    "last_known_update": "Daily ~03:00 UTC",
+    "source_repo": "globetvapp/epg",
+    "total_size_mb": 0.1
+  }
+}

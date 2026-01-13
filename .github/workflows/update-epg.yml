@@ -1,0 +1,31 @@
+name: Update EPG Daily
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Runs at 3:00 AM UTC every day (~7-8 PM previous day in Vancouver time)
+  workflow_dispatch:     # Lets you run it manually from the Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run EPG fetch script
+        run: python global_epg_db.py --all
+
+      - name: Commit and push changes if any
+        run: |
+          git config user.name "GitHub Action Bot"
+          git config user.email "actions@github.com"
+          git add epg_db/
+          git commit -m "Daily EPG update $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          git push

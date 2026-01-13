@@ -81,18 +81,6 @@ Free M3U example — Try https://github.com/iptv-org/iptv (filter by country) fo
 Large files — If Kodi is slow, limit EPG days or use a smaller country subset.
 Updates — Re-run the Python script daily (or let GitHub Actions do it) → re-clear Kodi cache to refresh.
 
-Folder Structure
-textglobal-tv-schedule-grabber/
-├── global_epg_db.py          # Main downloader script
-├── epg_db/                   # Downloaded EPG data
-│   ├── Australia/
-│   │   └── australia1.xml
-│   ├── Unitedkingdom/
-│   │   └── unitedkingdom4.xml
-│   └── ... (one folder per country)
-├── index.json                # Metadata summary
-├── .github/workflows/        # Daily auto-update (update-epg.yml)
-└── README.md
 License
 MIT License — feel free to fork, modify, and use.
 Data sourced from https://github.com/globetvapp/epg (GPLv3) — thank you to the maintainers!

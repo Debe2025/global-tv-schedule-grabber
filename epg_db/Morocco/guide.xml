@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tv generator-info-name="Processed by Open-EPG Visual Processor v1.0" generator-info-url="https://www.open-epg.com">
+<channel id="Al Aoula.ma"><display-name>Al Aoula.ma</display-name></channel>
+<channel id="Alidaâ Alamazighia.ma"><display-name>Alidaâ Alamazighia.ma</display-name></channel>
+<channel id="Alidaa alwatania.ma"><display-name>Alidaa alwatania.ma</display-name></channel>
+<channel id="Almaghribia.ma"><display-name>Almaghribia.ma</display-name></channel>
+<channel id="Arryadia.ma"><display-name>Arryadia.ma</display-name></channel>
+<channel id="Assadissa.ma"><display-name>Assadissa.ma</display-name></channel>
+<channel id="Athaqafia.ma"><display-name>Athaqafia.ma</display-name></channel>
+<channel id="Chaine Inter.ma"><display-name>Chaine Inter.ma</display-name></channel>
+<channel id="Idaât Mohammed Assadiss.ma"><display-name>Idaât Mohammed Assadiss.ma</display-name></channel>
+<channel id="Laâyoune.ma"><display-name>Laâyoune.ma</display-name></channel>
+<channel id="Tamazight.ma"><display-name>Tamazight.ma</display-name></channel>
+<programme start="20251229060000 +0000" stop="20251229060500 +0000" channel="Al Aoula.ma"><title>السلام الوطني + القرآن الكريم</title></programme>
+<programme start="20251229060500 +0000" stop="20251229061000 +0000" channel="Al Aoula.ma"><title>أحوال الطقس</title></programme>
+<programme start="20251229061000 +0000" stop="20251229064000 +0000" channel="Al Aoula.ma"><title>وثائقي أمازيغي</title></programme>
+<programme start="20251229064000 +0000" stop="20251229073500 +0000" channel="Al Aoula.ma"><title>أمودو</title><desc>برنامج وثائقي على شكل سلسلة من الأفلام الوثائقية المتميزة التي تقوم بتعريف التنوع الحيواني والنباتي والمآثر التاريخية وتاريخ بعض المناطق في المغرب، يسافر البرنامج إلى أقصى المناطق المغربية ونجح في تحقيق السبق في اكتشافات عديدة منذ بدء أول حلقة سواء بالمغرب أو خارجه.</desc></programme>
+<programme start="20251229073500 +0000" stop="20251229083000 +0000" channel="Al Aoula.ma"><title>اشعاع مملكة</title><desc>سلسلة وثائقية تحكي عن نجاح علاقة المغرب بمحيطه وتقدم حلقاتها تفاصيل هذا التميز وتسلط الضوء على التبادل الحضاري الغني بين المغرب و محيطه في تصوير ميداني بمعاينة نماذج مغربية ناجحة في ميادين مختلفة من الحياة. كل حلقة تسلط الضوء على جانب خاص من الإشعاع بما في ذلك الروحي و الفكري و الثقافي و الاقتصادي والفلاحي والحرفي والحقوقي والتجاري والسياسي والرياضي.</desc></programme>
+<programme start="20251229083000 +0000" stop="20251229093000 +0000" channel="Al Aoula.ma"><title>بيا ولا بيك</title><desc>بعد خسارته لثروة عائلته ومجدها بسبب التهرب من الضرائب، يواصل حكيم، الابن الأكبر والوحيد لعائلة بنعمر جشعه وطمعه للحفاظ على حياة الرفاهية على حساب العاملين بالشركة الوحيدة التي بقيت من إرث والده.</desc></programme>
+<programme start="20251229093000 +0000" stop="20251229100000 +0000" channel="Al Aoula.ma"><title>موجز الكان</title><desc>برنامج إخباري يومي يقدم خلاصة مركزة وشاملة لأبرز مستجدات كأس أمم إفريقيا – المغرب 2025، من نتائج المباريات وأهم الوقائع إلى التصريحات وردود الفعل في صيغة سريعة وواضحة تواكب إيقاع البطولة.</desc></programme>
+<programme start="20251229100000 +0000" stop="20251229110000 +0000" channel="Al Aoula.ma"><title>أسرتي</title><desc>يتوجه البرامج الذي تقدمه زينب صابر للأسرة المغربية، ويناقش من خلال مختلف فقراته اهتمامات الناس الاجتماعية والصحية والأسرية، كما يناقش عدة مواضيع تحظى بالأهمية كالصحة النفسية، الثقافة القانونية، الأمومة، التغذية، بالإضافة إلى آخر صيحات الموضة والجمال، ونمط العيش وفقرات أخرى مختلفة تستهدف الأسرة ويستضيف لأجل ذلك خبراء ومختصين من مجالات مختلفة.</desc></programme>
+<programme start="20251229110000 +0000" stop="20251229113000 +0000" channel="Al Aoula.ma"><title>صباح الكان</title><desc>نافذة صباحية يومية مباشرة من مارينا سلا، تنفتح مع أولى ساعات النهار لتقدم صورة مشرقة عن المغرب كوجهة رياضية وسياحية وثقافية نابضة بالحياة، وتواكب أجواء كأس أمم إفريقيا – المغرب 2025 بروح إنسانية وإيقاع هادئ. برنامج يجمع بين الإخبار الخفيف، التحليل المبسّط، والترفيه الذكي، عبر فقرات إبداعية تبرز جمال المكان، تنوع المدن ودفء التفاعل الشعبي المحيط بالحدث القاري.</desc></programme>
+<programme start="20251229113000 +0000" stop="20251229115000 +0000" channel="Al Aoula.ma"><title>بنات سي الطاهر</title><desc>مضت 60 سنة منذ أن عاشت زهرة وفاطنة معًا. على الرغم من حنينهما إلى الماضي، تحاول الأختان التكيف مع المجتمع الحديث مع كل ما يقدمه من مزايا وعيوب. حياتهما اليومية مليئة بالمغامرات خاصةً أن لكل منهما طابعها الخاص. فاطنة هادئة وتهتم كثيرًا بالنفقات وإدارة المنزل بشكل جيد، وتكره الموضة وتشعر بالتعلق الكبير بكل ما هو تقليدي وأصيل. أما زهرة فهي نشطة وحيوية، وتبذل قصارى جهدها للحفاظ على لياقتها وجمالها. ويسرد النص الأحداث التي يعيشها المغاربة يوميًا.</desc></programme>
+<programme start="20251229115000 +0000" stop="20251230115000 +0000" channel="Al Aoula.ma"><title>AFRICAN SHOW</title></programme>
+<programme start="20251230115000 +0000" stop="20251230120000 +0000" channel="Al Aoula.ma"><title>AFRICAN SHOW</title></programme>
+<programme start="20251230120000 +0000" stop="20251230122000 +0000" channel="Al Aoula.ma"><title>الأخبار</title><desc>أخبار الظهيرة</desc></programme>
+<programme start="20251230122000 +0000" stop="20251230123000 +0000" channel="Al Aoula.ma"><title>أحوال الطقس</title></programme>
+<programme start="20251230123000 +0000" stop="20251230130000 +0000" channel="Al Aoula.ma"><title>عز المدينة</title><desc>بعد وفاة زوجته وابنته في حادثة سير، يدخل يوسف في أزمة نفسية يقرر على إثرها العودة للعيش في منزل أسرته بدرب الحمام بالمدينة القديمة، إلا أنه سيصدم بالواقع الجديد الذي أصبح عليه الحي والقيم التي بدأت تندثر. يدخل يوسف في صراعات كبيرة من أجل تغيير الأوضاع خصوصا مع سليمان أحد تجار المخدرات الذي يريد أن يخضع الجميع لسيطرته وخصوصا الغالية التي لا تريد الزواج منه رغم الإغراءات. سلسلة عزالمدينة من إخراج حكيم القبابي و تشخيص أمين الناجي، فاطمة الزهراء بناصر، ياسين أحجام، سعاد حسن، فرح الفاسي، محسن مالزي و ناصر أقباب.</desc></programme>
+<programme start="20251230130000 +0000" stop="20251230132000 +0000" channel="Al Aoula.ma"><title>الأخبار</title><desc>الأخبار الأمازيغية</desc></programme>
+<programme start="20251230132000 +0000" stop="20251230134000 +0000" channel="Al Aoula.ma"><title>الأخبار</title><desc>الأخبار الإسبانية</desc></programme>
+<programme start="20251230134000 +0000" stop="20251230140000 +0000" channel="Al Aoula.ma"><title>الملحون</title></programme>
+<programme start="20251230140000 +0000" stop="20251230170000 +0000" channel="Al Aoula.ma"><title>البرلمان</title><desc>جلسات برلمانية على المباشر</desc></programme>
+<programme start="20251230170000 +0000" stop="20251230171500 +0000" channel="Al Aoula.ma"><title>كابتن حجيبة</title><desc>"تقرر ""مي حجيبة"" المرأة الستينية الثأر للخسارة المخزية لفريق كرة القدم الرجالي ""أتليتيكو الوئام"" فتأسس فريقا نسائيا ستعمل على تدريبه بنفسها لحصد اللقب المقبل، فهل ستكون الطريق سالكة للفريق الجديد؟</desc></programme>
+<programme start="20251230171500 +0000" stop="20251230173000 +0000" channel="Al Aoula.ma"><title>كابتن حجيبة</title><desc>"تقرر ""مي حجيبة"" المرأة الستينية الثأر للخسارة المخزية لفريق كرة القدم الرجالي ""أتليتيكو الوئام"" فتأسس فريقا نسائيا ستعمل على تدريبه بنفسها لحصد اللقب المقبل، فهل ستكون الطريق سالكة للفريق الجديد؟</desc></programme>
+<programme start="20251230173000 +0000" stop="20251230175000 +0000" channel="Al Aoula.ma"><title>الأخبار</title><desc>الأخبار الفرنسية</desc></programme>
+<programme start="20251230175000 +0000" stop="20251230180000 +0000" channel="Al Aoula.ma"><title>AFRICAN SHOW</title></programme>
+<programme start="20251230180000 +0000" stop="20251230185000 +0000" channel="Al Aoula.ma"><title>استوديو تحليلي</title></programme>
+<programme start="20251230185000 +0000" stop="20251230190500 +0000" channel="Al Aoula.ma"><title>بنات سي الطاهر</title><desc>مضت 60 سنة منذ أن عاشت زهرة وفاطنة معًا. على الرغم من حنينهما إلى الماضي، تحاول الأختان التكيف مع المجتمع الحديث مع كل ما يقدمه من مزايا وعيوب. حياتهما اليومية مليئة بالمغامرات خاصةً أن لكل منهما طابعها الخاص. فاطنة هادئة وتهتم كثيرًا بالنفقات وإدارة المنزل بشكل جيد، وتكره الموضة وتشعر بالتعلق الكبير بكل ما هو تقليدي وأصيل. أما زهرة فهي نشطة وحيوية، وتبذل قصارى جهدها للحفاظ على لياقتها وجمالها. ويسرد النص الأحداث التي يعيشها المغاربة يوميًا.</desc></programme>
+<programme start="20251230190500 +0000" stop="20251230210000 +0000" channel="Al Aoula.ma"><title>الراحة و السياحة</title></programme>
+<programme start="20251230210000 +0000" stop="20251230213000 +0000" channel="Al Aoula.ma"><title>استوديو تحليلي</title></programme>
+<programme start="20251230213000 +0000" stop="20251230222000 +0000" channel="Al Aoula.ma"><title>الأخبار</title><desc>الرئيسية</desc></programme>
+<programme start="20251230222000 +0000" stop="20251230225000 +0000" channel="Al Aoula.ma"><title>أحوال الطقس</title></programme>
+<programme start="20251230225000 +0000" stop="20251230231000 +0000" channel="Al Aoula.ma"><title>الأخبار</title><desc>الأخيرة</desc></programme>
+<programme start="20251230231000 +0000" stop="20251230235000 +0000" channel="Al Aoula.ma"><title>صباح الكان</title><desc>نافذة صباحية يومية مباشرة من مارينا سلا، تنفتح مع أولى ساعات النهار لتقدم صورة مشرقة عن المغرب كوجهة رياضية وسياحية وثقافية نابضة بالحياة، وتواكب أجواء كأس أمم إفريقيا – المغرب 2025 بروح إنسانية وإيقاع هادئ. برنامج يجمع بين الإخبار الخفيف، التحليل المبسّط، والترفيه الذكي، عبر فقرات إبداعية تبرز جمال المكان، تنوع المدن ودفء التفاعل الشعبي المحيط بالحدث القاري.</desc></programme>
+<programme start="20251230235000 +0000" stop="20251231003000 +0000" channel="Al Aoula.ma"><title>عز المدينة</title><desc>بعد وفاة زوجته وابنته في حادثة سير، يدخل يوسف في أزمة نفسية يقرر على إثرها العودة للعيش في منزل أسرته بدرب الحمام بالمدينة القديمة، إلا أنه سيصدم بالواقع الجديد الذي أصبح عليه الحي والقيم التي بدأت تندثر. يدخل يوسف في صراعات كبيرة من أجل تغيير الأوضاع خصوصا مع سليمان أحد تجار المخدرات الذي يريد أن يخضع الجميع لسيطرته وخصوصا الغالية التي لا تريد الزواج منه رغم الإغراءات. سلسلة عزالمدينة من إخراج حكيم القبابي و تشخيص أمين الناجي، فاطمة الزهراء بناصر، ياسين أحجام، سعاد حسن، فرح الفاسي، محسن مالزي و ناصر أقباب.</desc></programme>
+<programme start="20251231003000 +0000" stop="20251231010000 +0000" channel="Al Aoula.ma"><title>من سوق لسوق</title><desc>في الأسواق المغربية، تنبض الحياة بإيقاعها الفريد، حيث تتشابك الروائح والألوان والأصوات في لوحة لا مثيل لها. وحيث يكمن سر روح المغرب الأصيل. تبدأ القصة عند أول خيوط الفجر، حيث يأتي المزارعون بثمار أرضهم، ويعرض التجار كنوزهم، ويبحث الزوار عما يثري يومهم. حيث أن الإفطار هنا ليس مجرد وجبة، بل طقس اجتماعي يملؤه الدفء والأنس، ويتقاسم فيه الجميع لحظات الصباح الأولى. بين أكوام الفواكه النضرة، وأعشاب التوابل العطرة، وأكوام المنسوجات الزاهية، يظهر تنوع ثقافي لا حدود له...</desc></programme>
+<programme start="20251231010000 +0000" stop="20251231020000 +0000" channel="Al Aoula.ma"><title>بيا ولا بيك</title><desc>بعد خسارته لثروة عائلته ومجدها بسبب التهرب من الضرائب، يواصل حكيم، الابن الأكبر والوحيد لعائلة بنعمر جشعه وطمعه للحفاظ على حياة الرفاهية على حساب العاملين بالشركة الوحيدة التي بقيت من إرث والده.</desc></programme>
+<programme start="20251231020000 +0000" stop="20251231023000 +0000" channel="Al Aoula.ma"><title>وثائقي أمازيغي</title></programme>
+<programme start="20251231023000 +0000" stop="20251231030000 +0000" channel="Al Aoula.ma"><title>وثائقي أمازيغي</title></programme>
+<programme start="20251231030000 +0000" stop="20251231040000 +0000" channel="Al Aoula.ma"><title>اشعاع مملكة</title><desc>سلسلة وثائقية تحكي عن نجاح علاقة المغرب بمحيطه وتقدم حلقاتها تفاصيل هذا التميز وتسلط الضوء على التبادل الحضاري الغني بين المغرب و محيطه في تصوير ميداني بمعاينة نماذج مغربية ناجحة في ميادين مختلفة من الحياة. كل حلقة تسلط الضوء على جانب خاص من الإشعاع بما في ذلك الروحي و الفكري و الثقافي و الاقتصادي والفلاحي والحرفي والحقوقي والتجاري والسياسي والرياضي.</desc></programme>
+<programme start="20251229040000 +0000" stop="20251229040500 +0000" channel="Alidaa alwatania.ma"><title>افتتاح الإرسال بالسلام الملكي</title></programme>
+<programme start="20251229040500 +0000" stop="20251229042000 +0000" channel="Alidaa alwatania.ma"><title>حصة من الذكر الحكيم</title></programme>
+<programme start="20251229042000 +0000" stop="20251229042500 +0000" channel="Alidaa alwatania.ma"><title>أغاني دينية</title></programme>
+<programme start="20251229042500 +0000" stop="20251229050000 +0000" channel="Alidaa alwatania.ma"><title>أمداح نبوية وابتهـالات</title></programme>
+<programme start="20251229050000 +0000" stop="20251229050100 +0000" channel="Alidaa alwatania.ma"><title>صباح بلادي</title><desc>« صباح بلادي » هو برنامج صباحي إخباري، يضم عدة فقرات : رياضة، فلاحة، أحوال الطقس وأخبار ثقافية وفنية.</desc></programme>
+<programme start="20251229050100 +0000" stop="20251229050500 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229050500 +0000" stop="20251229050800 +0000" channel="Alidaa alwatania.ma"><title>أحوال الطقس</title></programme>
+<programme start="20251229050800 +0000" stop="20251229051500 +0000" channel="Alidaa alwatania.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229051500 +0000" stop="20251229053000 +0000" channel="Alidaa alwatania.ma"><title>الفياق بكري</title></programme>
+<programme start="20251229053000 +0000" stop="20251229053300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229053300 +0000" stop="20251229054000 +0000" channel="Alidaa alwatania.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229054000 +0000" stop="20251229055000 +0000" channel="Alidaa alwatania.ma"><title>في خدمة الفلاح</title></programme>
+<programme start="20251229055000 +0000" stop="20251229060000 +0000" channel="Alidaa alwatania.ma"><title>أسواق بلادي</title></programme>
+<programme start="20251229060000 +0000" stop="20251229062000 +0000" channel="Alidaa alwatania.ma"><title>النشرة الرئيسية</title></programme>
+<programme start="20251229062000 +0000" stop="20251229063000 +0000" channel="Alidaa alwatania.ma"><title>صحافة الكان</title></programme>
+<programme start="20251229063000 +0000" stop="20251229064000 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229064000 +0000" stop="20251229065000 +0000" channel="Alidaa alwatania.ma"><title>اجندة الكان</title></programme>
+<programme start="20251229065000 +0000" stop="20251229070000 +0000" channel="Alidaa alwatania.ma"><title>يومية المستمع</title></programme>
+<programme start="20251229070000 +0000" stop="20251229070300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229070300 +0000" stop="20251229071000 +0000" channel="Alidaa alwatania.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229071000 +0000" stop="20251229073000 +0000" channel="Alidaa alwatania.ma"><title>صوت الجمهور</title></programme>
+<programme start="20251229073000 +0000" stop="20251229073300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229073300 +0000" stop="20251229080000 +0000" channel="Alidaa alwatania.ma"><title>نقاش مفتوح</title></programme>
+<programme start="20251229080000 +0000" stop="20251229080300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229080300 +0000" stop="20251229090000 +0000" channel="Alidaa alwatania.ma"><title>اللقاء المفتوح</title><desc>برنامج اجتماعي خدماتي موجه للمرأة والأسرة يتضمن عدة فقرات ونصائح تهم جمال المرأة والبيت وفقرات أخرى</desc></programme>
+<programme start="20251229090000 +0000" stop="20251229090300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229090300 +0000" stop="20251229100000 +0000" channel="Alidaa alwatania.ma"><title>اللقاء المفتوح(تتمة)</title></programme>
+<programme start="20251229100000 +0000" stop="20251229100300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229100300 +0000" stop="20251229110000 +0000" channel="Alidaa alwatania.ma"><title>اللقاء المفتوح(تتمة)</title></programme>
+<programme start="20251229110000 +0000" stop="20251229110300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229110300 +0000" stop="20251229120000 +0000" channel="Alidaa alwatania.ma"><title>حديـــــــــــــث الظهيـــــــــــــــــرة</title><desc>مواضيع متنوعة تهم الحياة اليومية للمواطن المغربي</desc></programme>
+<programme start="20251229120000 +0000" stop="20251229121000 +0000" channel="Alidaa alwatania.ma"><title>النشرة الرئيسية</title></programme>
+<programme start="20251229121000 +0000" stop="20251229123000 +0000" channel="Alidaa alwatania.ma"><title>أغـــنيـــــــــــــــــــــــة مغـــــــــــربية</title></programme>
+<programme start="20251229123000 +0000" stop="20251229130000 +0000" channel="Alidaa alwatania.ma"><title>مغرب 2030</title></programme>
+<programme start="20251229130000 +0000" stop="20251229130300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229130300 +0000" stop="20251229140000 +0000" channel="Alidaa alwatania.ma"><title>مونديال إفريقيا</title><desc>برنامج إذاعي خاص يواكب منافسات كأس أمم إفريقيا 2025 المقامة بالمغرب، من خلال مقاربة إعلامية فريدة تمزج ببراعة بين التحليل العميق والقراءة التقنية الرصينة لمجريات كل مباراة.يعتمد البرنامج رؤية تحريرية تركز على جوهر اللعبة، مسلطا الضوء على الجوانب الفنية والتكتيكية، مع تقديم وجهات نظر نقدية متوازنة تهدف إلى إثراء النقاش الرياضي العام...</desc></programme>
+<programme start="20251229140000 +0000" stop="20251229140300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229140300 +0000" stop="20251229150000 +0000" channel="Alidaa alwatania.ma"><title>النقل المباشر لجلسة الاسئلة الشفوية لمجلس النواب</title></programme>
+<programme start="20251229150000 +0000" stop="20251229151000 +0000" channel="Alidaa alwatania.ma"><title>النشرة الرئيسية</title></programme>
+<programme start="20251229151000 +0000" stop="20251229160000 +0000" channel="Alidaa alwatania.ma"><title>النقل المباشر لجلسة الاسئلة الشفوية لمجلس النواب</title></programme>
+<programme start="20251229160000 +0000" stop="20251229160300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229160300 +0000" stop="20251229170000 +0000" channel="Alidaa alwatania.ma"><title>النقل المباشر لجلسة الاسئلة الشفوية لمجلس النواب</title></programme>
+<programme start="20251229170000 +0000" stop="20251229170300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229170300 +0000" stop="20251229180000 +0000" channel="Alidaa alwatania.ma"><title>طوب اطوال</title><desc>برنامج فني يعرض آخر الإصدارت الغنائية على الساحة الوطنية ، ويحاور الفنانين حول جديدهم الفني، بالإضافة إلى مسابقات غنائية يشارك فيها المستمعون في جو من المتعة والتسلية.</desc></programme>
+<programme start="20251229180000 +0000" stop="20251229180300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229180300 +0000" stop="20251229190000 +0000" channel="Alidaa alwatania.ma"><title>موعد للنقاش</title></programme>
+<programme start="20251229190000 +0000" stop="20251229192000 +0000" channel="Alidaa alwatania.ma"><title>النشرة الرئيسية</title></programme>
+<programme start="20251229192000 +0000" stop="20251229193000 +0000" channel="Alidaa alwatania.ma"><title>أغـــنيـــــــــــــــــــــــة مغـــــــــــربية</title></programme>
+<programme start="20251229193000 +0000" stop="20251229200000 +0000" channel="Alidaa alwatania.ma"><title>المســــــــــلسل الإذاعــــــــــــــــــــــــــــــــــــي</title></programme>
+<programme start="20251229200000 +0000" stop="20251229200300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229200300 +0000" stop="20251229210000 +0000" channel="Alidaa alwatania.ma"><title>صوت الشباب</title></programme>
+<programme start="20251229210000 +0000" stop="20251229210300 +0000" channel="Alidaa alwatania.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229210300 +0000" stop="20251229220000 +0000" channel="Alidaa alwatania.ma"><title>صوت الشباب (تتمة)</title></programme>
+<programme start="20251229220000 +0000" stop="20251229221000 +0000" channel="Alidaa alwatania.ma"><title>النشرة الرئيسية</title></programme>
+<programme start="20251229221000 +0000" stop="20251229221500 +0000" channel="Alidaa alwatania.ma"><title>النشرة القضائية</title><desc>نشرة تتضمن مجموعة من الإعلانات الشرعية والجنائية تتوصل بها الإذاعة الوطنية من مختلف محاكم المملكة لبثها عبر أمواجها الوطنية وإفادة هذه المحاكم بأجوبة البث.</desc></programme>
+<programme start="20251229221500 +0000" stop="20251229230000 +0000" channel="Alidaa alwatania.ma"><title>روائع الأغنية المغربية</title><desc>حصة غنائية تتضمن أنجح وأشهر الأغاني عند المطربين الرواد خلال مسيرتهم الفنية، كل اثنين من الحادية عشرة والربع الى منتصف الليل.</desc></programme>
+<programme start="20251229230000 +0000" stop="20251229230500 +0000" channel="Alidaa alwatania.ma"><title>افتتـــــــــــــــــــــــــــــــــــــــــــــــــــــاح الارســـــــــــــــــــــــــــــــــال بالموسيقــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــى المميــــــــــــــــــــــــــــــــــزة + الامــــــــــــــــــــــــــــــــــ</title></programme>
+<programme start="20251229230500 +0000" stop="20251229231000 +0000" channel="Alidaa alwatania.ma"><title>أغـــنيـــــــــــــــــــــــة مغـــــــــــربية</title></programme>
+<programme start="20251229231000 +0000" stop="20251229231500 +0000" channel="Alidaa alwatania.ma"><title>للثقافة أخبار</title></programme>
+<programme start="20251229231500 +0000" stop="20251229232000 +0000" channel="Alidaa alwatania.ma"><title>أغـــنيـــــــــــــــــــــــة مغـــــــــــربية</title></programme>
+<programme start="20251229232000 +0000" stop="20251229233000 +0000" channel="Alidaa alwatania.ma"><title>مذكرات</title></programme>
+<programme start="20251229233000 +0000" stop="20251230010000 +0000" channel="Alidaa alwatania.ma"><title>سير بالمهل</title></programme>
+<programme start="20251230010000 +0000" stop="20251230020000 +0000" channel="Alidaa alwatania.ma"><title>اصداء الملاعب</title></programme>
+<programme start="20251230020000 +0000" stop="20251230022000 +0000" channel="Alidaa alwatania.ma"><title>المســــــــــلسل الإذاعــــــــــــــــــــــــــــــــــــي</title></programme>
+<programme start="20251230022000 +0000" stop="20251230030000 +0000" channel="Alidaa alwatania.ma"><title>أغانــــــــــــي خالــــــــــــــــــــــــــدة</title><desc>حصة غنائية لأغاني مغربية وشرقية بقيت راسخة في الذاكرة رغم مرور الزمن</desc></programme>
+<programme start="20251230030000 +0000" stop="20251230033000 +0000" channel="Alidaa alwatania.ma"><title>نون النسوة</title></programme>
+<programme start="20251230033000 +0000" stop="20251230034000 +0000" channel="Alidaa alwatania.ma"><title>الكلمـــــــــــــــــة الطيبــــــــــــــــــــــة</title></programme>
+<programme start="20251230034000 +0000" stop="20251230040000 +0000" channel="Alidaa alwatania.ma"><title>السماع والمديح</title></programme>
+<programme start="20251230040000 +0000" stop="20251231040000 +0000" channel="Alidaa alwatania.ma"><title>ختــــــــــــــــــــام الإرســـــــــــــــال</title></programme>
+<programme start="20251229060000 +0000" stop="20251229063000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبارالمغربية السابعة صباحا</desc></programme>
+<programme start="20251229063000 +0000" stop="20251229070400 +0000" channel="Almaghribia.ma"><title>مدن االكان</title></programme>
+<programme start="20251229070400 +0000" stop="20251229074800 +0000" channel="Almaghribia.ma"><title>مغرب اليوم</title><desc>مراكش البهجة</desc></programme>
+<programme start="20251229074800 +0000" stop="20251229080000 +0000" channel="Almaghribia.ma"><title>من هنا وهناك</title><desc>الحلقة 40</desc></programme>
+<programme start="20251229080000 +0000" stop="20251229083000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبارالمغربية السابعة صباحا</desc></programme>
+<programme start="20251229083000 +0000" stop="20251229090000 +0000" channel="Almaghribia.ma"><title>بعيون مغربية</title><desc>بعيون مغربية</desc></programme>
+<programme start="20251229090000 +0000" stop="20251229100000 +0000" channel="Almaghribia.ma"><title>أسرتي 2024</title><desc>يتوجه البرامج الذي تقدمه زينب صابر للأسرة المغربية، ويناقش من خلال مختلف فقراته اهتمامات الناس الاجتماعية والصحية والأسرية، كما يناقش عدة مواضيع تحظى بالأهمية كالصحة النفسية، الثقافة القانونية، الأمومة، التغذية، بالإضافة إلى آخر صيحات الموضة والجمال، ونمط العيش وفقرات أخرى مختلفة تستهدف الأسرة ويستضيف لأجل ذلك خبراء ومختصين من مجالات مختلفة.</desc></programme>
+<programme start="20251229100000 +0000" stop="20251229105400 +0000" channel="Almaghribia.ma"><title>أمودو| 2021</title><desc>برنامج وثائقي على شكل سلسلة من الأفلام الوثائقية المتميزة التي تقوم بتعريف التنوع الحيواني والنباتي والمآثر التاريخية وتاريخ بعض المناطق في المغرب، يسافر البرنامج إلى أقصى المناطق المغربية ونجح في تحقيق السبق في اكتشافات عديدة منذ بدء أول حلقة سواء بالمغرب أو خارجه.</desc></programme>
+<programme start="20251229105400 +0000" stop="20251229110000 +0000" channel="Almaghribia.ma"><title>Najm al can</title><desc>Aziz boderbala</desc></programme>
+<programme start="20251229110000 +0000" stop="20251229112800 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبارالمغربية السابعة صباحا</desc></programme>
+<programme start="20251229112800 +0000" stop="20251229120000 +0000" channel="Almaghribia.ma"><title>موجز الكان</title><desc>.</desc></programme>
+<programme start="20251229120000 +0000" stop="20251229124300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>نشرة العيون الجهوية</desc></programme>
+<programme start="20251229124300 +0000" stop="20251229130000 +0000" channel="Almaghribia.ma"><title>نجووم ومنتخبات</title></programme>
+<programme start="20251229130000 +0000" stop="20251229140000 +0000" channel="Almaghribia.ma"><title>أمالاي| 2023</title><desc>"أملاي" سلسلة وثائقية من تقديم الفنان خالد البركاوي : مؤلف، ملحن، قائد فرقة موسيقية، وعازف إيقاع. فنان متعدد من أصل أمازيغي، شغوف بالسفر والموسيقى، يدعوكم لركوب قافلته مقتفيا الأصوات والأنماط الموسيقية المختلفة في بلادنا.من تنغير إلى قلعة مكونة مرورا بالمناطق الصحراوية... يأخذكم خالد البركاوي لاكتشاف الخصائص الثقافية والموسيقية لكل منطقة. وبين مواهب الأمس واليوم، يمكنكم اكتشاف النغمات البكر، والآلات التي لم يسبق لعامة الناس رؤيتها من قبل، والأصوات الأصيلة والألحان الساحرة."أمالاي" هو أكثر من مجرد رحلة، هو دعوة لاكتشاف غنى تراثنا الفني والثقافي، ويعدكم بتجربة إنسانية وموسيقية غامرة.</desc></programme>
+<programme start="20251229140000 +0000" stop="20251229142500 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبار الظهيرة -الأولى- اعادة</desc></programme>
+<programme start="20251229142500 +0000" stop="20251229150000 +0000" channel="Almaghribia.ma"><title>صباح الكان</title><desc>.</desc></programme>
+<programme start="20251229150000 +0000" stop="20251229153000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>نشرة أخبار المغربية</desc></programme>
+<programme start="20251229153000 +0000" stop="20251229154700 +0000" channel="Almaghribia.ma"><title>صدى الثقافة</title><desc>مهرجان تميداغ أكدير</desc></programme>
+<programme start="20251229154700 +0000" stop="20251229160000 +0000" channel="Almaghribia.ma"><title>من هنا وهناك</title><desc>الحلقة 40</desc></programme>
+<programme start="20251229160000 +0000" stop="20251229163000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>الأخبار الأمازيغية +الأخبار الاسبانية - الأولى- اعادة</desc></programme>
+<programme start="20251229163000 +0000" stop="20251229170000 +0000" channel="Almaghribia.ma"><title>ملااعب الكان</title></programme>
+<programme start="20251229170000 +0000" stop="20251229173000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبار المغربية -السادسة مساءا</desc></programme>
+<programme start="20251229173000 +0000" stop="20251229180000 +0000" channel="Almaghribia.ma"><title>متاحف المغرب</title><desc>متحف الطبيعة بالرباط</desc></programme>
+<programme start="20251229180000 +0000" stop="20251229183300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبار المغربية -السادسة مساءا</desc></programme>
+<programme start="20251229183300 +0000" stop="20251229193000 +0000" channel="Almaghribia.ma"><title>أنموكار</title><desc>"أنموكار" أو "الموكار" تعني" الموسم" باللهجة الأمازيغية. من خلال هذه السلسلة الوثائقية، يأخذكم الباحث عبد الإله الحرش في رحلته عبر مناطق مختلفة من المملكة، بحثا عن الروحانية وثقافة الأجداد. من فاس إلى بركان عبر الناظور أو الوليدية... مرورا بأبعد أركان المملكة.هذا العام، سيقدم البرنامج اضاءات عن الأولياء، الذين كانوا يُعرفون أيضا بالصالحين الذين تركوا، بصمة لا تمحى على التراث الاجتماعي والثقافي للمغرب. والحقيقة أن تعظيم الصالحين كان حاضرا بقوة في أذهان المغاربة، الذين يعتبرونهم، حتى اليوم، شخصيات حظيت بنعمة إلهية، نوع من "البركة" التي صبغوا بها مقاماتهم والأماكن التي دفنوا بها.</desc></programme>
+<programme start="20251229193000 +0000" stop="20251229200300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>الأخبار الفرنسية- الأولى - اعادة</desc></programme>
+<programme start="20251229200300 +0000" stop="20251229203500 +0000" channel="Almaghribia.ma"><title>نافدة صحية</title><desc>نزاة البرد - فيروس</desc></programme>
+<programme start="20251229203500 +0000" stop="20251229210200 +0000" channel="Almaghribia.ma"><title>الإقتصاد في أسبوع</title></programme>
+<programme start="20251229210200 +0000" stop="20251229213000 +0000" channel="Almaghribia.ma"><title>سفراء المغرب</title><desc>سفراء المغرب</desc></programme>
+<programme start="20251229213000 +0000" stop="20251229225000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>النشرة الرئيسية -اللأولى - اعادة</desc></programme>
+<programme start="20251229225000 +0000" stop="20251229232300 +0000" channel="Almaghribia.ma"><title>حصاد الكان</title><desc>.</desc></programme>
+<programme start="20251229232300 +0000" stop="20251229233000 +0000" channel="Almaghribia.ma"><title>يوميات الكان</title><desc>كبسولة</desc></programme>
+<programme start="20251229233000 +0000" stop="20251229235200 +0000" channel="Almaghribia.ma"><title>تقرير المغربية</title><desc>على هامش الكان</desc></programme>
+<programme start="20251229235200 +0000" stop="20251230000000 +0000" channel="Almaghribia.ma"><title>الصورة تتحدث</title><desc>الوطني</desc></programme>
+<programme start="20251230000000 +0000" stop="20251230010000 +0000" channel="Almaghribia.ma"><title>أسرتي 2024</title><desc>يتوجه البرامج الذي تقدمه زينب صابر للأسرة المغربية، ويناقش من خلال مختلف فقراته اهتمامات الناس الاجتماعية والصحية والأسرية، كما يناقش عدة مواضيع تحظى بالأهمية كالصحة النفسية، الثقافة القانونية، الأمومة، التغذية، بالإضافة إلى آخر صيحات الموضة والجمال، ونمط العيش وفقرات أخرى مختلفة تستهدف الأسرة ويستضيف لأجل ذلك خبراء ومختصين من مجالات مختلفة.</desc></programme>
+<programme start="20251230010000 +0000" stop="20251230013300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>النشرة الاخبارية الأخيرة - الأولى - اعادة</desc></programme>
+<programme start="20251230013300 +0000" stop="20251230023000 +0000" channel="Almaghribia.ma"><title>أمودو| 2021</title><desc>برنامج وثائقي على شكل سلسلة من الأفلام الوثائقية المتميزة التي تقوم بتعريف التنوع الحيواني والنباتي والمآثر التاريخية وتاريخ بعض المناطق في المغرب، يسافر البرنامج إلى أقصى المناطق المغربية ونجح في تحقيق السبق في اكتشافات عديدة منذ بدء أول حلقة سواء بالمغرب أو خارجه.</desc></programme>
+<programme start="20251230023000 +0000" stop="20251230030000 +0000" channel="Almaghribia.ma"><title>مدن االكان</title></programme>
+<programme start="20251230030000 +0000" stop="20251230033300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>النشرة الاخبارية الأخيرة - الأولى - اعادة</desc></programme>
+<programme start="20251230033300 +0000" stop="20251230043000 +0000" channel="Almaghribia.ma"><title>مسرح الأولى| 20/21</title><desc>يهدف برنامج «مسرح الأولى» إلى تتبع الدينامية التي يعرفها المشهد المسرحي الوطني المتميز بتنوعه الثقافي واللغويء و الجودة و الابتكار في الإنتاج ترصد فقرات البرنامج الفعاليات والتظاهرات المسرحية بمختلف مسارح المملكة. وتفتح نقاشا مفتوحا حول الفن الرابع عبر لقاءات مع فنانين ومبدعين ونقاد وشخصيات اضافت الشيء الكثير لهذا المجال الذي يعرف نقلة نوعية تستحق التتبع والمواكبة.</desc></programme>
+<programme start="20251230043000 +0000" stop="20251230053000 +0000" channel="Almaghribia.ma"><title>أمالاي| 2023</title><desc>"أملاي" سلسلة وثائقية من تقديم الفنان خالد البركاوي : مؤلف، ملحن، قائد فرقة موسيقية، وعازف إيقاع. فنان متعدد من أصل أمازيغي، شغوف بالسفر والموسيقى، يدعوكم لركوب قافلته مقتفيا الأصوات والأنماط الموسيقية المختلفة في بلادنا.من تنغير إلى قلعة مكونة مرورا بالمناطق الصحراوية... يأخذكم خالد البركاوي لاكتشاف الخصائص الثقافية والموسيقية لكل منطقة. وبين مواهب الأمس واليوم، يمكنكم اكتشاف النغمات البكر، والآلات التي لم يسبق لعامة الناس رؤيتها من قبل، والأصوات الأصيلة والألحان الساحرة."أمالاي" هو أكثر من مجرد رحلة، هو دعوة لاكتشاف غنى تراثنا الفني والثقافي، ويعدكم بتجربة إنسانية وموسيقية غامرة.</desc></programme>
+<programme start="20251230053000 +0000" stop="20251230055000 +0000" channel="Almaghribia.ma"><title>بصمات مغربية</title><desc>أحمد شوقي بنبين</desc></programme>
+<programme start="20251230055000 +0000" stop="20251230060000 +0000" channel="Almaghribia.ma"><title>السلام الوطني + القرآن الكريم</title><desc>..</desc></programme>
+<programme start="20251230060000 +0000" stop="20251230063000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبارالمغربية السابعة صباحا</desc></programme>
+<programme start="20251230063000 +0000" stop="20251230070300 +0000" channel="Almaghribia.ma"><title>أرضنا اليوم</title><desc>وزان - موسم جني الزيتون</desc></programme>
+<programme start="20251230070300 +0000" stop="20251230075200 +0000" channel="Almaghribia.ma"><title>لقاء المغربية</title><desc>med days</desc></programme>
+<programme start="20251230075200 +0000" stop="20251230080000 +0000" channel="Almaghribia.ma"><title>الصورة تتحدث</title><desc>الدولي</desc></programme>
+<programme start="20251230080000 +0000" stop="20251230083000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبارالمغربية السابعة صباحا</desc></programme>
+<programme start="20251230083000 +0000" stop="20251230090000 +0000" channel="Almaghribia.ma"><title>الإقتصاد في أسبوع</title></programme>
+<programme start="20251230090000 +0000" stop="20251230100000 +0000" channel="Almaghribia.ma"><title>أسرتي 2024</title><desc>يتوجه البرامج الذي تقدمه زينب صابر للأسرة المغربية، ويناقش من خلال مختلف فقراته اهتمامات الناس الاجتماعية والصحية والأسرية، كما يناقش عدة مواضيع تحظى بالأهمية كالصحة النفسية، الثقافة القانونية، الأمومة، التغذية، بالإضافة إلى آخر صيحات الموضة والجمال، ونمط العيش وفقرات أخرى مختلفة تستهدف الأسرة ويستضيف لأجل ذلك خبراء ومختصين من مجالات مختلفة.</desc></programme>
+<programme start="20251230100000 +0000" stop="20251230110000 +0000" channel="Almaghribia.ma"><title>أمالاي| 2023</title><desc>"أملاي" سلسلة وثائقية من تقديم الفنان خالد البركاوي : مؤلف، ملحن، قائد فرقة موسيقية، وعازف إيقاع. فنان متعدد من أصل أمازيغي، شغوف بالسفر والموسيقى، يدعوكم لركوب قافلته مقتفيا الأصوات والأنماط الموسيقية المختلفة في بلادنا.من تنغير إلى قلعة مكونة مرورا بالمناطق الصحراوية... يأخذكم خالد البركاوي لاكتشاف الخصائص الثقافية والموسيقية لكل منطقة. وبين مواهب الأمس واليوم، يمكنكم اكتشاف النغمات البكر، والآلات التي لم يسبق لعامة الناس رؤيتها من قبل، والأصوات الأصيلة والألحان الساحرة."أمالاي" هو أكثر من مجرد رحلة، هو دعوة لاكتشاف غنى تراثنا الفني والثقافي، ويعدكم بتجربة إنسانية وموسيقية غامرة.</desc></programme>
+<programme start="20251230110000 +0000" stop="20251230112800 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبارالمغربية السابعة صباحا</desc></programme>
+<programme start="20251230112800 +0000" stop="20251230120000 +0000" channel="Almaghribia.ma"><title>موجز الكان</title><desc>.</desc></programme>
+<programme start="20251230120000 +0000" stop="20251230124300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>نشرة العيون الجهوية</desc></programme>
+<programme start="20251230124300 +0000" stop="20251230130000 +0000" channel="Almaghribia.ma"><title>can culture</title><desc>EP</desc></programme>
+<programme start="20251230130000 +0000" stop="20251230134200 +0000" channel="Almaghribia.ma"><title>مغرب اليوم</title><desc>مراكش البهجة</desc></programme>
+<programme start="20251230134200 +0000" stop="20251230134800 +0000" channel="Almaghribia.ma"><title>Dakirat al can</title></programme>
+<programme start="20251230134800 +0000" stop="20251230140000 +0000" channel="Almaghribia.ma"><title>من هنا وهناك</title><desc>الحلقة 40</desc></programme>
+<programme start="20251230140000 +0000" stop="20251230142500 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبار الظهيرة -الأولى- اعادة</desc></programme>
+<programme start="20251230142500 +0000" stop="20251230150000 +0000" channel="Almaghribia.ma"><title>صباح الكان</title><desc>.</desc></programme>
+<programme start="20251230150000 +0000" stop="20251230153000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>نشرة أخبار المغربية</desc></programme>
+<programme start="20251230153000 +0000" stop="20251230154700 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>نشرة الأخبار بالانجليزية</desc></programme>
+<programme start="20251230154700 +0000" stop="20251230160000 +0000" channel="Almaghribia.ma"><title>نجووم ومنتخبات</title></programme>
+<programme start="20251230160000 +0000" stop="20251230163000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>الأخبار الأمازيغية +الأخبار الاسبانية - الأولى- اعادة</desc></programme>
+<programme start="20251230163000 +0000" stop="20251230170000 +0000" channel="Almaghribia.ma"><title>مدن االكان</title></programme>
+<programme start="20251230170000 +0000" stop="20251230173000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبار المغربية -السادسة مساءا</desc></programme>
+<programme start="20251230173000 +0000" stop="20251230180000 +0000" channel="Almaghribia.ma"><title>نافدة صحية</title><desc>نزاة البرد - فيروس</desc></programme>
+<programme start="20251230180000 +0000" stop="20251230183300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>أخبار المغربية -السادسة مساءا</desc></programme>
+<programme start="20251230183300 +0000" stop="20251230193000 +0000" channel="Almaghribia.ma"><title>أرض البركة</title><desc>"أرض البركة" هو وثائقي يسلط الضوء على معالم الحياة الاقتصادية الاجتماعية والدينية والثقافية، وعلى خصائص المعمار والحرف والطهي الخاصة بكل منطقة من مناطق المملكة.في كل حلقة، يركز برنامج "أرض البركة" على مدينة معينة ويتيح لكم اكتشافها من جميع الزوايا.ومن خلال نظرة شاملة، يعرفكم على تاريخ وكيفية تأسيس كل مدينة، وما يميزها عن المدن الأخرى. من طنجة إلى قلعة مكونة، مرورا بآسفي... يأخذكم "أرض البركة" لاكتشاف مدن مختلفة بتنوعها، ويقربكم من كل العناصر التي تشكل الثراء الثقافي والتنوع البيولوجي للأراضي المغربية.</desc></programme>
+<programme start="20251230193000 +0000" stop="20251230200200 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>الأخبار الفرنسية- الأولى - اعادة</desc></programme>
+<programme start="20251230200200 +0000" stop="20251230202000 +0000" channel="Almaghribia.ma"><title>تقرير المغربية</title><desc>أزلال</desc></programme>
+<programme start="20251230202000 +0000" stop="20251230211500 +0000" channel="Almaghribia.ma"><title>اشعاع مملكة| 2023</title><desc>سلسلة وثائقية تحكي عن نجاح علاقة المغرب بمحيطه وتقدم حلقاتها تفاصيل هذا التميز وتسلط الضوء على التبادل الحضاري الغني بين المغرب و محيطه في تصوير ميداني بمعاينة نماذج مغربية ناجحة في ميادين مختلفة من الحياة. كل حلقة تسلط الضوء على جانب خاص من الإشعاع بما في ذلك الروحي و الفكري و الثقافي و الاقتصادي والفلاحي والحرفي والحقوقي والتجاري والسياسي والرياضي.</desc></programme>
+<programme start="20251230211500 +0000" stop="20251230213000 +0000" channel="Almaghribia.ma"><title>نجووم ومنتخبات</title></programme>
+<programme start="20251230213000 +0000" stop="20251230225000 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>النشرة الرئيسية -اللأولى - اعادة</desc></programme>
+<programme start="20251230225000 +0000" stop="20251230232200 +0000" channel="Almaghribia.ma"><title>حصاد الكان</title><desc>.</desc></programme>
+<programme start="20251230232200 +0000" stop="20251230233000 +0000" channel="Almaghribia.ma"><title>الصورة تتحدث</title><desc>الوطني</desc></programme>
+<programme start="20251230233000 +0000" stop="20251231000000 +0000" channel="Almaghribia.ma"><title>أرضنا اليوم</title><desc>وزان - موسم جني الزيتون</desc></programme>
+<programme start="20251231000000 +0000" stop="20251231010000 +0000" channel="Almaghribia.ma"><title>أسرتي 2024</title><desc>يتوجه البرامج الذي تقدمه زينب صابر للأسرة المغربية، ويناقش من خلال مختلف فقراته اهتمامات الناس الاجتماعية والصحية والأسرية، كما يناقش عدة مواضيع تحظى بالأهمية كالصحة النفسية، الثقافة القانونية، الأمومة، التغذية، بالإضافة إلى آخر صيحات الموضة والجمال، ونمط العيش وفقرات أخرى مختلفة تستهدف الأسرة ويستضيف لأجل ذلك خبراء ومختصين من مجالات مختلفة.</desc></programme>
+<programme start="20251231010000 +0000" stop="20251231013200 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>النشرة الاخبارية الأخيرة - الأولى - اعادة</desc></programme>
+<programme start="20251231013200 +0000" stop="20251231022700 +0000" channel="Almaghribia.ma"><title>مسرح الأولى| 20/21</title><desc>يهدف برنامج «مسرح الأولى» إلى تتبع الدينامية التي يعرفها المشهد المسرحي الوطني المتميز بتنوعه الثقافي واللغويء و الجودة و الابتكار في الإنتاج ترصد فقرات البرنامج الفعاليات والتظاهرات المسرحية بمختلف مسارح المملكة. وتفتح نقاشا مفتوحا حول الفن الرابع عبر لقاءات مع فنانين ومبدعين ونقاد وشخصيات اضافت الشيء الكثير لهذا المجال الذي يعرف نقلة نوعية تستحق التتبع والمواكبة.</desc></programme>
+<programme start="20251231022700 +0000" stop="20251231030000 +0000" channel="Almaghribia.ma"><title>ملااعب الكان</title></programme>
+<programme start="20251231030000 +0000" stop="20251231033300 +0000" channel="Almaghribia.ma"><title>نشرات الاخبار المغربية</title><desc>النشرة الاخبارية الأخيرة - الأولى - اعادة</desc></programme>
+<programme start="20251231033300 +0000" stop="20251231042000 +0000" channel="Almaghribia.ma"><title>لقاء المغربية</title><desc>med days</desc></programme>
+<programme start="20251229050000 +0000" stop="20251229050100 +0000" channel="Chaine Inter.ma"><title>افتتاح الإرسال بالسلام الملكي</title></programme>
+<programme start="20251229050100 +0000" stop="20251229050300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229050300 +0000" stop="20251229053000 +0000" channel="Chaine Inter.ma"><title>REVEIL MATINAL</title><desc>عبارة عن برمجة موسيقية تقدم مجموعة مختارة من أفضل العناوين البارزة في الوقت الحالي من أجل استيقاظ إيقاعي وممتع.</desc></programme>
+<programme start="20251229053000 +0000" stop="20251229053300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229053300 +0000" stop="20251229060000 +0000" channel="Chaine Inter.ma"><title>Reveil matinal (suite)</title></programme>
+<programme start="20251229060000 +0000" stop="20251229061000 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية</title></programme>
+<programme start="20251229061000 +0000" stop="20251229061500 +0000" channel="Chaine Inter.ma"><title>INTER MATIN</title><desc>تقدم لكم مزيجاً ديناميكياً من المعلومات: تحليلات سياسية، مقاطع توعية، وأخبار عملية لتبدأ يومك بشكل جيد. تابعنا للحصول على تحديث كامل عن آخر المستجدات سواء على الصعيد الوطني أو الدولي</desc></programme>
+<programme start="20251229061500 +0000" stop="20251229061800 +0000" channel="Chaine Inter.ma"><title>دقيقة البيئة</title></programme>
+<programme start="20251229061800 +0000" stop="20251229063000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229063000 +0000" stop="20251229063500 +0000" channel="Chaine Inter.ma"><title>الأجندة الثقافية</title></programme>
+<programme start="20251229063500 +0000" stop="20251229064500 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229064500 +0000" stop="20251229064800 +0000" channel="Chaine Inter.ma"><title>السجل الثقافي "قراءة المزيد"</title></programme>
+<programme start="20251229064800 +0000" stop="20251229070000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229070000 +0000" stop="20251229071000 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية</title></programme>
+<programme start="20251229071000 +0000" stop="20251229071500 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229071500 +0000" stop="20251229071800 +0000" channel="Chaine Inter.ma"><title>كبسولات الوقاية " Roulez cool"</title></programme>
+<programme start="20251229071800 +0000" stop="20251229072000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229072000 +0000" stop="20251229072500 +0000" channel="Chaine Inter.ma"><title>سجل الأحداث "REPERES"</title></programme>
+<programme start="20251229072500 +0000" stop="20251229073000 +0000" channel="Chaine Inter.ma"><title>موعد الإقتصاد</title></programme>
+<programme start="20251229073000 +0000" stop="20251229073300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229073300 +0000" stop="20251229074000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251229074000 +0000" stop="20251229074200 +0000" channel="Chaine Inter.ma"><title>High Tech</title></programme>
+<programme start="20251229074200 +0000" stop="20251229074500 +0000" channel="Chaine Inter.ma"><title>ضيف اليوم</title></programme>
+<programme start="20251229074500 +0000" stop="20251229080000 +0000" channel="Chaine Inter.ma"><title>مذكرة CAN 2025</title></programme>
+<programme start="20251229080000 +0000" stop="20251229080300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229080300 +0000" stop="20251229080500 +0000" channel="Chaine Inter.ma"><title>INTERACTIVITE</title></programme>
+<programme start="20251229080500 +0000" stop="20251229083000 +0000" channel="Chaine Inter.ma"><title>باختصار</title></programme>
+<programme start="20251229083000 +0000" stop="20251229090000 +0000" channel="Chaine Inter.ma"><title>التأثير الرقمي</title></programme>
+<programme start="20251229090000 +0000" stop="20251229090300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229090300 +0000" stop="20251229093000 +0000" channel="Chaine Inter.ma"><title>فقرة "التالك"</title></programme>
+<programme start="20251229093000 +0000" stop="20251229094500 +0000" channel="Chaine Inter.ma"><title>فقرة "تيك تالك"</title></programme>
+<programme start="20251229094500 +0000" stop="20251229100000 +0000" channel="Chaine Inter.ma"><title>فقرة "لو ريبوندور"</title></programme>
+<programme start="20251229100000 +0000" stop="20251229100300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229100300 +0000" stop="20251229110000 +0000" channel="Chaine Inter.ma"><title>فقرة "خاص CAN 2025 "</title></programme>
+<programme start="20251229110000 +0000" stop="20251229110300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229110300 +0000" stop="20251229120000 +0000" channel="Chaine Inter.ma"><title>خاص CAN 2025</title></programme>
+<programme start="20251229120000 +0000" stop="20251229120100 +0000" channel="Chaine Inter.ma"><title>LE GRAND FORMAT DE LINFO</title></programme>
+<programme start="20251229120100 +0000" stop="20251229121400 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالفرنسية</title></programme>
+<programme start="20251229121400 +0000" stop="20251229121500 +0000" channel="Chaine Inter.ma"><title>حالة الطقس</title></programme>
+<programme start="20251229121500 +0000" stop="20251229121600 +0000" channel="Chaine Inter.ma"><title>تذكير بالعناوين</title></programme>
+<programme start="20251229121600 +0000" stop="20251229122200 +0000" channel="Chaine Inter.ma"><title>الأخبار الرياضية</title></programme>
+<programme start="20251229122200 +0000" stop="20251229122500 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251229122500 +0000" stop="20251229124500 +0000" channel="Chaine Inter.ma"><title>الضيف المباشر</title></programme>
+<programme start="20251229124500 +0000" stop="20251229125800 +0000" channel="Chaine Inter.ma"><title>مجلة</title></programme>
+<programme start="20251229125800 +0000" stop="20251229130000 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229130000 +0000" stop="20251229132000 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالإسبانية</title></programme>
+<programme start="20251229132000 +0000" stop="20251229132200 +0000" channel="Chaine Inter.ma"><title>حالة الطقس</title></programme>
+<programme start="20251229132200 +0000" stop="20251229132700 +0000" channel="Chaine Inter.ma"><title>كبسولة رياضية</title></programme>
+<programme start="20251229132700 +0000" stop="20251229133100 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251229133100 +0000" stop="20251229134200 +0000" channel="Chaine Inter.ma"><title>مقابلة</title></programme>
+<programme start="20251229134200 +0000" stop="20251229135500 +0000" channel="Chaine Inter.ma"><title>مجلة</title></programme>
+<programme start="20251229135500 +0000" stop="20251229135800 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251229135800 +0000" stop="20251229140000 +0000" channel="Chaine Inter.ma"><title>آخر الأخبار</title></programme>
+<programme start="20251229140000 +0000" stop="20251229141900 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالإنجليزية</title></programme>
+<programme start="20251229141900 +0000" stop="20251229142300 +0000" channel="Chaine Inter.ma"><title>توقعات الطقس</title></programme>
+<programme start="20251229142300 +0000" stop="20251229143300 +0000" channel="Chaine Inter.ma"><title>لقاء اليوم</title></programme>
+<programme start="20251229143300 +0000" stop="20251229143600 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251229143600 +0000" stop="20251229144000 +0000" channel="Chaine Inter.ma"><title>إرث اليوم</title></programme>
+<programme start="20251229144000 +0000" stop="20251229145400 +0000" channel="Chaine Inter.ma"><title>مجلة</title></programme>
+<programme start="20251229145400 +0000" stop="20251229145700 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251229145700 +0000" stop="20251229150000 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229150000 +0000" stop="20251229160000 +0000" channel="Chaine Inter.ma"><title>TENDANCE ET INFLUENCE</title><desc>عش رمضان هادئاً مع هذه الحلقة الهادئة التي ترافقكم كل مساء. تقدم لكم فيروز وإيمان مزيجاً من الاكتشافات مع ضيوف مميزين: فنانين، فكاهيين، مؤثرين، مدونين وخبراء في الموضة والجمال. على البرنامج: غمر في أخبار الشبكات الاجتماعية والمشهد الرقمي على الصعيدين المغربي والدولي. موعد لا يُفوت لمتابعة أحدث الاتجاهات، التبادل والإلهام</desc></programme>
+<programme start="20251229160000 +0000" stop="20251229160300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229160300 +0000" stop="20251229170000 +0000" channel="Chaine Inter.ma"><title>Tendance et influence : صدى و أخبار كأس إفريقية للأمم</title></programme>
+<programme start="20251229170000 +0000" stop="20251229170300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229170300 +0000" stop="20251229180000 +0000" channel="Chaine Inter.ma"><title>CHAINE INTER CULTURE</title><desc>برنامج chaine inter culture يضرب لكم موعدا مع مستجدات الثقافة الوطنية والدولية ويقدم بانوراما ثقافية بحضور خبراء وضيوف في عالم المسرح والأدب والشعر والموسيقى... يبث من الاثنين إلى الجمعة من 6 إلى 8 مساءً. من تقديم: منى بنعمور</desc></programme>
+<programme start="20251229180000 +0000" stop="20251229180300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251229180300 +0000" stop="20251229190000 +0000" channel="Chaine Inter.ma"><title>Chaine inter culture (تتمة)</title></programme>
+<programme start="20251229190000 +0000" stop="20251229191500 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية</title></programme>
+<programme start="20251229191500 +0000" stop="20251229200000 +0000" channel="Chaine Inter.ma"><title>صمد اختار لكم</title><desc>يقدم صمد للمستمعين قائمة موسيقية خاصة تضم أروع الأغاني وأفضل الفنانين من الاثنين إلى الجمعة ابتداءاُ من الساعة 12 ظهرًا إلى 1 ظهرًا.</desc></programme>
+<programme start="20251229200000 +0000" stop="20251229220000 +0000" channel="Chaine Inter.ma"><title>LIBRE ANTENNE</title></programme>
+<programme start="20251229220000 +0000" stop="20251229221500 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالعربية</title></programme>
+<programme start="20251229221500 +0000" stop="20251229230000 +0000" channel="Chaine Inter.ma"><title>CLUB JAZZ</title><desc>برمجة موسيقية خاصة و حصرية تهتم بالجاز كلون موسيقي عتيق مع أكبر نجوم الجاز الدولي.</desc></programme>
+<programme start="20251229230000 +0000" stop="20251230010000 +0000" channel="Chaine Inter.ma"><title>TENDANCE ET INFLUENCE (إعادة)</title></programme>
+<programme start="20251230010000 +0000" stop="20251230030000 +0000" channel="Chaine Inter.ma"><title>CHAINE INTER CULTURE (إعادة)</title></programme>
+<programme start="20251230030000 +0000" stop="20251230050000 +0000" channel="Chaine Inter.ma"><title>برمجة موسيقية</title></programme>
+<programme start="20251230050000 +0000" stop="20251230050100 +0000" channel="Chaine Inter.ma"><title>افتتاح الإرسال بالسلام الملكي</title></programme>
+<programme start="20251230050100 +0000" stop="20251230050300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230050300 +0000" stop="20251230053000 +0000" channel="Chaine Inter.ma"><title>REVEIL MATINAL</title><desc>عبارة عن برمجة موسيقية تقدم مجموعة مختارة من أفضل العناوين البارزة في الوقت الحالي من أجل استيقاظ إيقاعي وممتع.</desc></programme>
+<programme start="20251230053000 +0000" stop="20251230053300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230053300 +0000" stop="20251230060000 +0000" channel="Chaine Inter.ma"><title>Reveil matinal (suite)</title></programme>
+<programme start="20251230060000 +0000" stop="20251230061000 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية</title></programme>
+<programme start="20251230061000 +0000" stop="20251230061500 +0000" channel="Chaine Inter.ma"><title>INTER MATIN</title><desc>تقدم لكم مزيجاً ديناميكياً من المعلومات: تحليلات سياسية، مقاطع توعية، وأخبار عملية لتبدأ يومك بشكل جيد. تابعنا للحصول على تحديث كامل عن آخر المستجدات سواء على الصعيد الوطني أو الدولي</desc></programme>
+<programme start="20251230061500 +0000" stop="20251230061800 +0000" channel="Chaine Inter.ma"><title>دقيقة البيئة</title></programme>
+<programme start="20251230061800 +0000" stop="20251230063000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251230063000 +0000" stop="20251230063500 +0000" channel="Chaine Inter.ma"><title>الأجندة الثقافية</title></programme>
+<programme start="20251230063500 +0000" stop="20251230064500 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251230064500 +0000" stop="20251230064800 +0000" channel="Chaine Inter.ma"><title>السجل الثقافي "قراءة المزيد"</title></programme>
+<programme start="20251230064800 +0000" stop="20251230070000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251230070000 +0000" stop="20251230071000 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية</title></programme>
+<programme start="20251230071000 +0000" stop="20251230071500 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251230071500 +0000" stop="20251230071800 +0000" channel="Chaine Inter.ma"><title>كبسولات الوقاية " Roulez cool"</title></programme>
+<programme start="20251230071800 +0000" stop="20251230072000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251230072000 +0000" stop="20251230072500 +0000" channel="Chaine Inter.ma"><title>سجل الأحداث "REPERES"</title></programme>
+<programme start="20251230072500 +0000" stop="20251230073000 +0000" channel="Chaine Inter.ma"><title>موعد الإقتصاد</title></programme>
+<programme start="20251230073000 +0000" stop="20251230073300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230073300 +0000" stop="20251230074000 +0000" channel="Chaine Inter.ma"><title>موسيقى</title><desc>Musique</desc></programme>
+<programme start="20251230074000 +0000" stop="20251230074200 +0000" channel="Chaine Inter.ma"><title>High Tech</title></programme>
+<programme start="20251230074200 +0000" stop="20251230074500 +0000" channel="Chaine Inter.ma"><title>ضيف اليوم</title></programme>
+<programme start="20251230074500 +0000" stop="20251230080000 +0000" channel="Chaine Inter.ma"><title>مذكرة CAN 2025</title></programme>
+<programme start="20251230080000 +0000" stop="20251230080300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230080300 +0000" stop="20251230080500 +0000" channel="Chaine Inter.ma"><title>INTERACTIVITE</title></programme>
+<programme start="20251230080500 +0000" stop="20251230083000 +0000" channel="Chaine Inter.ma"><title>باختصار</title></programme>
+<programme start="20251230083000 +0000" stop="20251230090000 +0000" channel="Chaine Inter.ma"><title>التأثير الرقمي</title></programme>
+<programme start="20251230090000 +0000" stop="20251230090300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230090300 +0000" stop="20251230093000 +0000" channel="Chaine Inter.ma"><title>فقرة "التالك"</title></programme>
+<programme start="20251230093000 +0000" stop="20251230094500 +0000" channel="Chaine Inter.ma"><title>فقرة "تيك تالك"</title></programme>
+<programme start="20251230094500 +0000" stop="20251230100000 +0000" channel="Chaine Inter.ma"><title>فقرة "لو ريبوندور"</title></programme>
+<programme start="20251230100000 +0000" stop="20251230100300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230100300 +0000" stop="20251230110000 +0000" channel="Chaine Inter.ma"><title>فقرة "خاص CAN 2025 "</title></programme>
+<programme start="20251230110000 +0000" stop="20251230110300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230110300 +0000" stop="20251230120000 +0000" channel="Chaine Inter.ma"><title>خاص CAN 2025</title></programme>
+<programme start="20251230120000 +0000" stop="20251230120100 +0000" channel="Chaine Inter.ma"><title>LE GRAND FORMAT DE LINFO</title></programme>
+<programme start="20251230120100 +0000" stop="20251230121400 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالفرنسية</title></programme>
+<programme start="20251230121400 +0000" stop="20251230121500 +0000" channel="Chaine Inter.ma"><title>حالة الطقس</title></programme>
+<programme start="20251230121500 +0000" stop="20251230121600 +0000" channel="Chaine Inter.ma"><title>تذكير بالعناوين</title></programme>
+<programme start="20251230121600 +0000" stop="20251230122200 +0000" channel="Chaine Inter.ma"><title>الأخبار الرياضية</title></programme>
+<programme start="20251230122200 +0000" stop="20251230122500 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251230122500 +0000" stop="20251230124500 +0000" channel="Chaine Inter.ma"><title>الضيف المباشر</title></programme>
+<programme start="20251230124500 +0000" stop="20251230125800 +0000" channel="Chaine Inter.ma"><title>مجلة</title></programme>
+<programme start="20251230125800 +0000" stop="20251230130000 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230130000 +0000" stop="20251230132000 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالإسبانية</title></programme>
+<programme start="20251230132000 +0000" stop="20251230132200 +0000" channel="Chaine Inter.ma"><title>حالة الطقس</title></programme>
+<programme start="20251230132200 +0000" stop="20251230132700 +0000" channel="Chaine Inter.ma"><title>كبسولة رياضية</title></programme>
+<programme start="20251230132700 +0000" stop="20251230133100 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251230133100 +0000" stop="20251230134200 +0000" channel="Chaine Inter.ma"><title>مقابلة</title></programme>
+<programme start="20251230134200 +0000" stop="20251230135500 +0000" channel="Chaine Inter.ma"><title>مجلة</title></programme>
+<programme start="20251230135500 +0000" stop="20251230135800 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251230135800 +0000" stop="20251230140000 +0000" channel="Chaine Inter.ma"><title>آخر الأخبار</title></programme>
+<programme start="20251230140000 +0000" stop="20251230141900 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالإنجليزية</title></programme>
+<programme start="20251230141900 +0000" stop="20251230142300 +0000" channel="Chaine Inter.ma"><title>توقعات الطقس</title></programme>
+<programme start="20251230142300 +0000" stop="20251230143300 +0000" channel="Chaine Inter.ma"><title>لقاء اليوم</title></programme>
+<programme start="20251230143300 +0000" stop="20251230143600 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251230143600 +0000" stop="20251230144000 +0000" channel="Chaine Inter.ma"><title>إرث اليوم</title></programme>
+<programme start="20251230144000 +0000" stop="20251230145400 +0000" channel="Chaine Inter.ma"><title>مجلة</title></programme>
+<programme start="20251230145400 +0000" stop="20251230145700 +0000" channel="Chaine Inter.ma"><title>استراحة موسيقية</title></programme>
+<programme start="20251230145700 +0000" stop="20251230150000 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230150000 +0000" stop="20251230160000 +0000" channel="Chaine Inter.ma"><title>TENDANCE ET INFLUENCE</title><desc>عش رمضان هادئاً مع هذه الحلقة الهادئة التي ترافقكم كل مساء. تقدم لكم فيروز وإيمان مزيجاً من الاكتشافات مع ضيوف مميزين: فنانين، فكاهيين، مؤثرين، مدونين وخبراء في الموضة والجمال. على البرنامج: غمر في أخبار الشبكات الاجتماعية والمشهد الرقمي على الصعيدين المغربي والدولي. موعد لا يُفوت لمتابعة أحدث الاتجاهات، التبادل والإلهام</desc></programme>
+<programme start="20251230160000 +0000" stop="20251230160300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230160300 +0000" stop="20251230170000 +0000" channel="Chaine Inter.ma"><title>Tendance et influence : صدى و أخبار كأس إفريقية للأمم</title></programme>
+<programme start="20251230170000 +0000" stop="20251230170300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230170300 +0000" stop="20251230180000 +0000" channel="Chaine Inter.ma"><title>CHAINE INTER CULTURE</title><desc>برنامج chaine inter culture يضرب لكم موعدا مع مستجدات الثقافة الوطنية والدولية ويقدم بانوراما ثقافية بحضور خبراء وضيوف في عالم المسرح والأدب والشعر والموسيقى... يبث من الاثنين إلى الجمعة من 6 إلى 8 مساءً. من تقديم: منى بنعمور</desc></programme>
+<programme start="20251230180000 +0000" stop="20251230180300 +0000" channel="Chaine Inter.ma"><title>موجز إخباري</title></programme>
+<programme start="20251230180300 +0000" stop="20251230190000 +0000" channel="Chaine Inter.ma"><title>Chaine inter culture (تتمة)</title></programme>
+<programme start="20251230190000 +0000" stop="20251230191500 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية</title></programme>
+<programme start="20251230191500 +0000" stop="20251230200000 +0000" channel="Chaine Inter.ma"><title>صمد اختار لكم</title><desc>يقدم صمد للمستمعين قائمة موسيقية خاصة تضم أروع الأغاني وأفضل الفنانين من الاثنين إلى الجمعة ابتداءاُ من الساعة 12 ظهرًا إلى 1 ظهرًا.</desc></programme>
+<programme start="20251230200000 +0000" stop="20251230220000 +0000" channel="Chaine Inter.ma"><title>LIBRE ANTENNE</title></programme>
+<programme start="20251230220000 +0000" stop="20251230221500 +0000" channel="Chaine Inter.ma"><title>النشرة الإخبارية بالعربية</title></programme>
+<programme start="20251230221500 +0000" stop="20251230230000 +0000" channel="Chaine Inter.ma"><title>CLUB JAZZ</title><desc>برمجة موسيقية خاصة و حصرية تهتم بالجاز كلون موسيقي عتيق مع أكبر نجوم الجاز الدولي.</desc></programme>
+<programme start="20251230230000 +0000" stop="20251231010000 +0000" channel="Chaine Inter.ma"><title>TENDANCE ET INFLUENCE (إعادة)</title></programme>
+<programme start="20251231010000 +0000" stop="20251231030000 +0000" channel="Chaine Inter.ma"><title>CHAINE INTER CULTURE (إعادة)</title></programme>
+<programme start="20251231030000 +0000" stop="20251231050000 +0000" channel="Chaine Inter.ma"><title>برمجة موسيقية</title></programme>
+</tv>

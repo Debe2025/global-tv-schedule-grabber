@@ -2,8 +2,8 @@ name: Update Global EPG Daily
 
 on:
   schedule:
-    - cron: '0 4 * * *'          # Every day at 4:00 UTC (~8 PM previous day PST)
-  workflow_dispatch:             # Manual trigger from Actions tab
+    - cron: '0 4 * * *'          # Every day at 4:00 UTC
+  workflow_dispatch:
 
 jobs:
   update:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0           # Full history → reliable git diff
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,26 +23,36 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests         # Required by global_epg_db.py
+          pip install requests
 
       - name: Run EPG downloader script
         run: python global_epg_db.py --all
-        continue-on-error: false       # Fail job if script crashes (good for debugging)
 
-      - name: Commit & push only if EPG files or index actually changed
+      - name: Show what changed (for debugging)
+        run: |
+          echo "Files in epg_db after script:"
+          ls -la epg_db/ || echo "epg_db/ directory does not exist or is empty"
+          echo ""
+          echo "index.json status:"
+          ls -la index.json 2>/dev/null || echo "index.json does not exist"
+          echo ""
+          git status --short
+
+      - name: Commit & push only if there are actual changes
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
 
-          # Stage relevant files only
-          git add -A epg_db/ index.json
+          # Stage changes safely — ignore errors if paths don't exist yet
+          git add -A epg_db/ index.json || true
 
-          # Check for changes → commit & push only if something differs
-          if ! git diff --quiet HEAD -- epg_db/ index.json; then
+          # Only commit if there is something staged
+          if git diff --cached --quiet; then
+            echo "No changes to commit (nothing staged)"
+          else
             git commit -m "Daily EPG refresh $(date +'%Y-%m-%d')"
             git push
-          else
-            echo "No changes detected — skipping commit & push"
+            echo "Committed and pushed changes"
           fi
 
         env:

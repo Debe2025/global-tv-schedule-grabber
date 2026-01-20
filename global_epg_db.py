@@ -16,6 +16,7 @@ import sys
 from pathlib import Path
 import requests
 from urllib.parse import quote
+import gzip
 
 # ────────────────────────────────────────────────
 # SOURCES - ordered by reliability / freshness 2026
@@ -41,47 +42,51 @@ SOURCES = [
 ]
 
 # ────────────────────────────────────────────────
-# Full country list from globetvapp/epg folders (Jan 2026) – 97 countries
-# Display names are human-readable; folder slugs are exact repo folder names
+# Full country list from globetvapp/epg folders (108 countries as of Jan 2026)
+# Display names are human-readable; slug_map handles exact folder names
 # ────────────────────────────────────────────────
 AVAILABLE_COUNTRIES = [
-    "Albania", "Argentina", "Australia", "Austria", "Belgium", "Bolivia", "Bosnia",
-    "Brazil", "Bulgaria", "Canada", "Caribbean", "Chile", "China", "Colombia",
-    "Costa Rica", "Croatia", "Cyprus", "Czech", "Denmark", "Dominican Republic",
-    "Ecuador", "Egypt", "El Salvador", "Estonia", "Finland", "France", "Georgia",
-    "Germany", "Ghana", "Greece", "Guatemala", "Honduras", "Hong Kong", "Hungary",
-    "Iceland", "India", "Indonesia", "Ireland", "Israel", "Italy", "Ivory Coast",
-    "Jamaica", "Kenya", "Korea", "Latvia", "Lithuania", "Luxembourg", "Macau",
-    "Madagascar", "Malawi", "Malaysia", "Malta", "Mauritius", "Mexico", "Mongolia",
-    "Montenegro", "Morocco", "Mozambique", "Namibia", "Netherlands", "New Caledonia",
-    "New Zealand", "Nigeria", "Norway", "Pakistan", "Panama", "Paraguay", "Peru",
-    "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Romania", "Russia",
-    "Saudi Arabia", "Scotland", "Serbia", "Singapore", "Slovakia", "Slovenia",
-    "South Africa", "Spain", "Sports", "Sweden", "Switzerland", "Taiwan", "Thailand",
-    "Turkey", "UAE", "Uganda", "Ukraine", "United Kingdom", "United States",
-    "Uruguay", "Uzbekistan", "Venezuela", "Vietnam", "Zambia"
+    "Albania", "Argentina", "Australia", "Austria", "Belgium", "Bolivia", "Bosnia and Herzegovina", "Brazil",
+    "Bulgaria", "Canada", "Caribbean", "Chile", "China", "Colombia", "Costa Rica", "Croatia", "Cyprus",
+    "Czech Republic", "Denmark", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Estonia",
+    "Finland", "France", "Georgia", "Germany", "Ghana", "Greece", "Guatemala", "Honduras", "Hong Kong",
+    "Hungary", "Iceland", "India", "Indonesia", "Ireland", "Israel", "Italy", "Ivory Coast", "Jamaica",
+    "Kenya", "Korea", "Latvia", "Lithuania", "Luxembourg", "Macau", "Madagascar", "Malawi", "Malaysia",
+    "Malta", "Mauritius", "Mexico", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Namibia",
+    "Netherlands", "New Caledonia", "New Zealand", "Nigeria", "Norway", "Pakistan", "Panama", "Paraguay",
+    "Peru", "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Romania", "Russia",
+    "Saudi Arabia", "Scotland", "Serbia", "Singapore", "Slovakia", "Slovenia", "South Africa", "Spain",
+    "Sweden", "Switzerland", "Taiwan", "Thailand", "Turkey", "UAE", "Uganda", "Ukraine", "United Kingdom",
+    "Uruguay", "United States", "Uzbekistan", "Venezuela", "Vietnam", "Zambia"
 ]
 
+# In normalize_country_name(), expand the slug_map to cover all:
 def normalize_country_name(name: str) -> tuple[str, str]:
     """Return (display_name, folder_slug) – slug is the exact folder name in repo"""
     name = name.strip()
-    # Map common display names → actual repo folder slugs (only overrides needed)
+    # Full mapping: display → exact repo folder
     slug_map = {
-        "United Kingdom": "Unitedkingdom",
-        "United States": "Usa",
-        "New Zealand": "Newzealand",
-        "South Africa": "Southafrica",
-        "Costa Rica": "Costarica",
-        "Dominican Republic": "Dominican",
-        "El Salvador": "Elsalvador",
-        "Hong Kong": "Hongkong",
-        "Ivory Coast": "Ivorycoast",
-        "Puerto Rico": "Puertorico",
-        "Saudi Arabia": "Saudiarabia",
-    }
+    "Bosnia and Herzegovina": "Bosnia",
+    "Costa Rica": "Costarica",
+    "Czech Republic": "Czech",
+    "Dominican Republic": "Dominican",
+    "El Salvador": "Elsalvador",
+    "Hong Kong": "Hongkong",
+    "Ivory Coast": "Ivorycoast",
+    "New Caledonia": "Newcaledonia",
+    "New Zealand": "Newzealand",
+    "Puerto Rico": "Puertorico",
+    "Saudi Arabia": "Saudiarabia",
+    "South Africa": "Southafrica",
+    "United Arab Emirates": "Uae",  # or "UAE" if you use that display
+    "United Kingdom": "Unitedkingdom",
+    "United States": "Usa",
+    # These usually match automatically but can override if needed:
+    # "Korea": "Korea",
+    # "Scotland": "Scotland",
+}
     slug = slug_map.get(name, name.replace(" ", "").replace(".", ""))
     return name, slug
-
 
 def try_download(url: str, timeout=12) -> bytes | None:
     try:
@@ -105,9 +110,7 @@ def download_for_country(country_display: str, output_dir: Path) -> bool:
     for src in SOURCES:
         base = src["base_raw"]
         patterns = src["file_patterns"]
-
-        # globetvapp uses the slug as folder name directly
-        folder = slug
+        folder = slug  # globetvapp uses slug directly as folder
 
         for pat in patterns:
             filename = pat.format(
@@ -117,17 +120,28 @@ def download_for_country(country_display: str, output_dir: Path) -> bool:
             print(f"  Trying {src['name']} → {filename} ... ", end="")
 
             data = try_download(url)
-            if data:
+            if data is not None:
+                print("✓ saved", end="")
+                # Handle .gz if applicable
+                if filename.lower().endswith('.gz'):
+                    try:
+                        data = gzip.decompress(data)
+                        print(" (decompressed)", end="")
+                    except Exception as e:
+                        print(f" (gz failed: {e} → skipping)", end="")
+                        continue  # skip this file, try next pattern
+
+                # Now data is decompressed bytes (or original if not gz)
+                # Safe to write
                 with open(target, "wb") as f:
                     f.write(data)
-                print("✓ saved")
+                print()  # newline after success line
                 return True
             else:
                 print("✗")
 
     print("→ No usable file found across sources.")
     return False
-
 
 def build_index(output_dir: Path):
     index = {}

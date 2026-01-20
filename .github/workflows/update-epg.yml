@@ -1,74 +1,46 @@
-name: Refresh EPG Daily
+name: Update Global EPG Daily
 
 on:
   schedule:
-    - cron: '0 4 * * *'               # 4 AM UTC (~8 PM previous day Vancouver time)
-  workflow_dispatch:                  # manual button in Actions tab
+    - cron: '0 4 * * *'          # Every day at 4:00 UTC (~8 PM previous day PST)
+  workflow_dispatch:             # Allows manual trigger from Actions tab
 
 jobs:
-  generate:
+  update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+          fetch-depth: 0           # Important: full history so git diff works reliably
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Install Python deps (if using merge script)
-        run: pip install lxml requests
-
-      - name: Clone iptv-org/epg
-        run: git clone --depth 1 https://github.com/iptv-org/epg.git epg-grabber
-
-      - name: Install grabber dependencies
-        working-directory: epg-grabber
-        run: npm ci
-
-      - name: Generate & merge EPG (example for CA, US, GB – add more countries here)
+      - name: Install dependencies (if your script needs any beyond stdlib)
         run: |
-          cd epg-grabber
-          # Example: run grabber for a few sites/countries → output guide.xml
-          npm run grab -- --site=cbc.ca --site=ctv.ca --site=globaltv.com --days=7 --output=../data/CA/guide.xml --gzip=false
+          python -m pip install --upgrade pip
+          # Add extras only if needed, e.g.:
+          # pip install requests lxml
 
-          # Repeat for other countries or use a loop with different --site lists
-          # npm run grab -- --site=abc.go.com --site=nbc.com --days=7 --output=../data/US/guide.xml --gzip=false
+      - name: Run EPG downloader script
+        run: python global_epg_db.py --all
 
-      - name: Merge & compress (if multiple files produced)
-        run: python scripts/merge-xmltv.py   # your merge script – see below
-
-      - name: Generate index.json
-        run: |
-          python - <<EOF
-          import json, os, datetime
-          data = {}
-          for country in os.listdir('data'):
-              if os.path.isdir(f'data/{country}'):
-                  files = [f for f in os.listdir(f'data/{country}') if f.endswith('.xml.gz')]
-                  if files:
-                      size = sum(os.path.getsize(f'data/{country}/{f}') for f in files) / (1024*1024)
-                      data[country] = {
-                          "files": files,
-                          "size_mb": round(size, 1),
-                          "updated": datetime.datetime.utcnow().isoformat() + "Z"
-                      }
-          with open('data/index.json', 'w') as f:
-              json.dump(data, f, indent=2)
-          EOF
-
-      - name: Commit changes
+      - name: Commit changes only if files actually changed
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add data/
-          git commit -m "Daily EPG refresh $(date +'%Y-%m-%d')" || echo "No changes"
-          git push
+
+          # Stage all possible changes (epg_db/*, index.json)
+          git add -A epg_db/ index.json
+
+          # Commit only if there are actual differences (files changed or added)
+          git diff --quiet && git diff --staged --quiet || \
+            (git commit -m "Daily EPG update: $(date +'%Y-%m-%d')" && \
+             git push)
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # Built-in token — no need to create one

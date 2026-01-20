@@ -7,7 +7,8 @@ Usage:
   python global_epg_db.py --all
   python global_epg_db.py --countries "United States" Canada France "United Kingdom"
 """
-
+import xml.etree.ElementTree as ET
+from datetime import datetime
 import argparse
 import json
 import os
@@ -110,26 +111,81 @@ def download_for_country(country_display: str, output_dir: Path) -> bool:
 
 def build_index(output_dir: Path):
     index = {}
-    for subdir in output_dir.iterdir():
-        if not subdir.is_dir():
+    for country_dir in output_dir.iterdir():
+        if not country_dir.is_dir():
             continue
-        epg_file = subdir / "guide.xml"
-        if not epg_file.exists():
+        epg_file = country_dir / "guide.xml"
+        if not epg_file.exists() or epg_file.stat().st_size < 50_000:
             continue
 
-        size_mb = round(epg_file.stat().st_size / (1024 ** 2), 2)
-        index[subdir.name] = {
-            "country": subdir.name,
-            "file": f"{subdir.name}/guide.xml",
+        size_mb = round(epg_file.stat().st_size / (1024 * 1024), 2)
+
+        # Parse for rich info
+        extra_info = {
+            "channels_count": 0,
+            "programmes_count": 0,
+            "generated_date": "Unknown",
+            "latest_programme_start": "Unknown",
+            "age_days": "N/A",
+            "generator": "Unknown",
+        }
+        try:
+            tree = ET.parse(epg_file)
+            root = tree.getroot()
+
+            extra_info["channels_count"] = len(root.findall("channel"))
+
+            programmes = root.findall("programme")
+            extra_info["programmes_count"] = len(programmes)
+
+            # Generated date if present
+            if "date" in root.attrib:
+                extra_info["generated_date"] = root.attrib["date"]
+
+            # Generator info
+            if "generator-info-name" in root.attrib:
+                extra_info["generator"] = root.attrib["generator-info-name"]
+
+            # Freshness from max programme start
+            if programmes:
+                start_times = []
+                for prog in programmes:
+                    start = prog.get("start")
+                    if start:
+                        # Parse YYYYMMDDHHMMSS (ignore tz offset for simplicity)
+                        dt_str = start.split(" ")[0][:14]  # e.g., 20260119120000
+                        try:
+                            dt = datetime.strptime(dt_str, "%Y%m%d%H%M%S")
+                            start_times.append(dt)
+                        except ValueError:
+                            pass
+                if start_times:
+                    max_dt = max(start_times)
+                    extra_info["latest_programme_start"] = max_dt.isoformat()
+                    age = (datetime.utcnow() - max_dt).days
+                    extra_info["age_days"] = max(age, 0)  # no negative
+
+        except Exception as e:
+            print(f"Warning: Failed to parse {epg_file}: {e}")
+
+        index[country_dir.name] = {
+            "country": country_dir.name,
+            "file": f"{country_dir.name}/guide.xml",
             "size_mb": size_mb,
             "last_updated": datetime.utcnow().isoformat() + "Z",
-            "source": "multi-source (globetvapp primary)",
-            # Later: add channel/program count by parsing XML (needs lxml)
+            "source": "globetvapp/epg (primary)",  # update if multi-source
+            "channels": extra_info["channels_count"],
+            "programmes": extra_info["programmes_count"],
+            "generated_date": extra_info["generated_date"],
+            "latest_programme_start": extra_info["latest_programme_start"],
+            "age_days": extra_info["age_days"],
+            "generator": extra_info["generator"],
         }
 
     with open(output_dir / "index.json", "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2, sort_keys=True)
-    print(f"\nIndex updated: {output_dir}/index.json ({len(index)} countries)")
+    print(f"\nRich index created: {output_dir}/index.json ({len(index)} countries)")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-source Global EPG Downloader")

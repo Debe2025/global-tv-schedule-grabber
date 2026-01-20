@@ -8,14 +8,13 @@ Usage:
   python global_epg_db.py --countries "United States" Canada France "United Kingdom"
 """
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone
 import argparse
 import json
 import os
 import sys
 from pathlib import Path
 import requests
-from datetime import datetime
 from urllib.parse import quote
 
 # ────────────────────────────────────────────────
@@ -25,41 +24,64 @@ SOURCES = [
     {
         "name": "globetvapp",
         "base_raw": "https://raw.githubusercontent.com/globetvapp/epg/main",
-        "folder_style": "TitleNoSpace",  # UnitedStates, Canada, France...
+        "folder_style": "AsInRepo",  # Mostly TitleNoSpace but some like Unitedkingdom, Usa, Southafrica
         "file_patterns": [
-            "{slug_lower}1.xml",
-            "{slug_lower}2.xml", "{slug_lower}3.xml", "{slug_lower}4.xml",
-            "guide.xml", "epg.xml", "{slug}.xml", "{country_lower}.xml"
+            "{slug_lower}1.xml", "{slug_lower}2.xml", "{slug_lower}3.xml", "{slug_lower}4.xml", "{slug_lower}5.xml", "{slug_lower}6.xml",
+            "guide.xml", "epg.xml", "{slug}.xml", "{country_lower}.xml",
+            "{slug_lower}.xml.gz", "guide.xml.gz", "epg.xml.gz",  # some repos use gz
         ]
     },
     # Add more sources later, e.g.:
     # {
-    #     "name": "catchuptv",
-    #     "base_raw": "https://raw.githubusercontent.com/Catch-up-TV-and-More/xmltv/master",
-    #     "folder_style": "lowercase",
-    #     "file_patterns": ["{slug_lower}_local.xml", "{slug_lower}.xml"]
+    #     "name": "iptv-org",
+    #     "base_raw": "https://raw.githubusercontent.com/iptv-org/epg/master",
+    #     "folder_style": "other",
+    #     "file_patterns": ["guides/{slug_lower}.xml", ...]
     # },
 ]
 
 # ────────────────────────────────────────────────
-# Country list (expand as needed - from globetvapp + common others)
-# Use display names here; script normalizes
+# Full country list from globetvapp/epg folders (Jan 2026) – 97 countries
+# Display names are human-readable; folder slugs are exact repo folder names
 # ────────────────────────────────────────────────
 AVAILABLE_COUNTRIES = [
-    "Australia", "Canada", "France", "Germany", "United Kingdom", "United States",
-    "India", "Italy", "Spain", "Brazil", "Mexico", "Netherlands", "Poland",
-    "Sweden", "Norway", "Denmark", "Switzerland", "Belgium", "Austria",
-    "Portugal", "Turkey", "Argentina", "Chile", "Uruguay",
-    "Albania", "Greece", "Ireland", "New Zealand", "South Africa",
-    # Add more from https://github.com/globetvapp/epg/tree/main
+    "Albania", "Argentina", "Australia", "Austria", "Belgium", "Bolivia", "Bosnia",
+    "Brazil", "Bulgaria", "Canada", "Caribbean", "Chile", "China", "Colombia",
+    "Costa Rica", "Croatia", "Cyprus", "Czech", "Denmark", "Dominican Republic",
+    "Ecuador", "Egypt", "El Salvador", "Estonia", "Finland", "France", "Georgia",
+    "Germany", "Ghana", "Greece", "Guatemala", "Honduras", "Hong Kong", "Hungary",
+    "Iceland", "India", "Indonesia", "Ireland", "Israel", "Italy", "Ivory Coast",
+    "Jamaica", "Kenya", "Korea", "Latvia", "Lithuania", "Luxembourg", "Macau",
+    "Madagascar", "Malawi", "Malaysia", "Malta", "Mauritius", "Mexico", "Mongolia",
+    "Montenegro", "Morocco", "Mozambique", "Namibia", "Netherlands", "New Caledonia",
+    "New Zealand", "Nigeria", "Norway", "Pakistan", "Panama", "Paraguay", "Peru",
+    "Philippines", "Poland", "Portugal", "Puerto Rico", "Qatar", "Romania", "Russia",
+    "Saudi Arabia", "Scotland", "Serbia", "Singapore", "Slovakia", "Slovenia",
+    "South Africa", "Spain", "Sports", "Sweden", "Switzerland", "Taiwan", "Thailand",
+    "Turkey", "UAE", "Uganda", "Ukraine", "United Kingdom", "United States",
+    "Uruguay", "Uzbekistan", "Venezuela", "Vietnam", "Zambia"
 ]
 
 def normalize_country_name(name: str) -> tuple[str, str]:
-    """Return (display, folder_slug)"""
+    """Return (display_name, folder_slug) – slug is the exact folder name in repo"""
     name = name.strip()
-    slug = name.replace(" ", "").replace(".", "")
-    lower = slug.lower()
-    return name, slug, lower
+    # Map common display names → actual repo folder slugs (only overrides needed)
+    slug_map = {
+        "United Kingdom": "Unitedkingdom",
+        "United States": "Usa",
+        "New Zealand": "Newzealand",
+        "South Africa": "Southafrica",
+        "Costa Rica": "Costarica",
+        "Dominican Republic": "Dominican",
+        "El Salvador": "Elsalvador",
+        "Hong Kong": "Hongkong",
+        "Ivory Coast": "Ivorycoast",
+        "Puerto Rico": "Puertorico",
+        "Saudi Arabia": "Saudiarabia",
+    }
+    slug = slug_map.get(name, name.replace(" ", "").replace(".", ""))
+    return name, slug
+
 
 def try_download(url: str, timeout=12) -> bytes | None:
     try:
@@ -70,8 +92,10 @@ def try_download(url: str, timeout=12) -> bytes | None:
     except Exception:
         return None
 
+
 def download_for_country(country_display: str, output_dir: Path) -> bool:
-    display, slug, lower = normalize_country_name(country_display)
+    display, slug = normalize_country_name(country_display)
+    lower = slug.lower()
     country_dir = output_dir / slug
     country_dir.mkdir(parents=True, exist_ok=True)
     target = country_dir / "guide.xml"
@@ -80,14 +104,10 @@ def download_for_country(country_display: str, output_dir: Path) -> bool:
 
     for src in SOURCES:
         base = src["base_raw"]
-        style = src["folder_style"]
         patterns = src["file_patterns"]
 
+        # globetvapp uses the slug as folder name directly
         folder = slug
-        if style == "lowercase":
-            folder = lower
-        elif style == "TitleNoSpace":
-            folder = slug
 
         for pat in patterns:
             filename = pat.format(
@@ -101,13 +121,13 @@ def download_for_country(country_display: str, output_dir: Path) -> bool:
                 with open(target, "wb") as f:
                     f.write(data)
                 print("✓ saved")
-                # Optional: gzip here if you want .gz instead
                 return True
             else:
                 print("✗")
 
     print("→ No usable file found across sources.")
     return False
+
 
 def build_index(output_dir: Path):
     index = {}
@@ -120,7 +140,6 @@ def build_index(output_dir: Path):
 
         size_mb = round(epg_file.stat().st_size / (1024 * 1024), 2)
 
-        # Parse for rich info
         extra_info = {
             "channels_count": 0,
             "programmes_count": 0,
@@ -134,36 +153,30 @@ def build_index(output_dir: Path):
             root = tree.getroot()
 
             extra_info["channels_count"] = len(root.findall("channel"))
-
             programmes = root.findall("programme")
             extra_info["programmes_count"] = len(programmes)
 
-            # Generated date if present
             if "date" in root.attrib:
                 extra_info["generated_date"] = root.attrib["date"]
-
-            # Generator info
             if "generator-info-name" in root.attrib:
                 extra_info["generator"] = root.attrib["generator-info-name"]
 
-            # Freshness from max programme start
             if programmes:
                 start_times = []
                 for prog in programmes:
                     start = prog.get("start")
                     if start:
-                        # Parse YYYYMMDDHHMMSS (ignore tz offset for simplicity)
-                        dt_str = start.split(" ")[0][:14]  # e.g., 20260119120000
+                        dt_str = start.split(" ")[0][:14]
                         try:
-                            dt = datetime.strptime(dt_str, "%Y%m%d%H%M%S")
+                            dt = datetime.strptime(dt_str, "%Y%m%d%H%M%S").replace(tzinfo=timezone.utc)
                             start_times.append(dt)
                         except ValueError:
                             pass
                 if start_times:
                     max_dt = max(start_times)
                     extra_info["latest_programme_start"] = max_dt.isoformat()
-                    age = (datetime.utcnow() - max_dt).days
-                    extra_info["age_days"] = max(age, 0)  # no negative
+                    age = (datetime.now(timezone.utc) - max_dt).days
+                    extra_info["age_days"] = max(age, 0)
 
         except Exception as e:
             print(f"Warning: Failed to parse {epg_file}: {e}")
@@ -172,8 +185,8 @@ def build_index(output_dir: Path):
             "country": country_dir.name,
             "file": f"{country_dir.name}/guide.xml",
             "size_mb": size_mb,
-            "last_updated": datetime.utcnow().isoformat() + "Z",
-            "source": "globetvapp/epg (primary)",  # update if multi-source
+            "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "source": "globetvapp/epg (primary)",
             "channels": extra_info["channels_count"],
             "programmes": extra_info["programmes_count"],
             "generated_date": extra_info["generated_date"],
@@ -189,7 +202,7 @@ def build_index(output_dir: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="Multi-source Global EPG Downloader")
-    parser.add_argument('--countries', nargs='+', help="Country names")
+    parser.add_argument('--countries', nargs='+', help="Country names (use quotes for multi-word)")
     parser.add_argument('--all', action='store_true')
     parser.add_argument('--output', default="./epg_db", help="Output folder")
 
@@ -203,12 +216,13 @@ def main():
         sys.exit(1)
 
     success = 0
-    for c in countries:
+    for c in sorted(countries):  # sort for nicer output
         if download_for_country(c, out_dir):
             success += 1
 
     build_index(out_dir)
     print(f"\nFinished — {success}/{len(countries)} countries saved.")
+
 
 if __name__ == "__main__":
     main()
